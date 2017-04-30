@@ -1,4 +1,4 @@
-﻿body{
+﻿body {
     background-color: lightgray;
 }
 
@@ -120,6 +120,7 @@ nav {
     margin-left: 7.5vw;
 }
 
+
 .amenBox {
     width: 28.6vw;
     height: 50vh;
@@ -153,12 +154,13 @@ nav {
     background-size: cover;
 }
 
-@media screen and (max-width: 1000) {
+@media screen and (max-width: 1500) {
 
     .amenBox {
         width: 100vw;
         height: 100vh;
     }
+
 }
 
 
