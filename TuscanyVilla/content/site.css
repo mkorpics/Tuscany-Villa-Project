@@ -1,2 +1,180 @@
-﻿body {
+﻿nav {
+    background-color: darkslategray;
+    color: white;
+    margin-bottom: 0;
+}
+
+    nav#navvy.navbar.navbar-static-top {
+        margin-bottom: 0;
+    }
+
+#navvy a {
+    color: white;
+}
+
+    #navvy a:hover {
+        background: none;
+    }
+
+.headerlinks a {
+    /*make smallcaps?*/
+}
+
+/*Jumbotron Header*/
+.jumboHeader {
+    margin: 0 auto;
+    height: 80vh;
+    background-image: url('../images/12032052_10153660268617650_4945984882558392804_n.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jumboText {
+    padding-left: 2vw;
+    color: darkslategray;
+    text-shadow: 3px 3px 2px white;
+}
+
+/*All the Section Headers*/
+.page-header {
+    background-color: darkslategray;
+    margin: 0 auto;
+    color: white;
+}
+
+/*LOCATIONS SECTION*/
+.locationsRow {
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.caption {
+    margin: 0 15px;
+}
+
+.btn {
+    background-color: darkslategray;
+    color: white;
+}
+
+.reverseTheme {
+    background-color: darkslategray;
+    color: white;
+}
+
+    .reverseTheme .btn {
+        background-color: white;
+        color: darkslategray;
+    }
+
+/*AMENITIES SECTION*/
+
+#Amenities {
+    margin: 10vh auto;
+    background-color: lightgray;
+}
+
+    #Amenities p, h1, h3 {
+        text-transform: uppercase;
+    }
+
+.amenitiesAd {
+    text-align: center;
+}
+
+    .amenitiesAd h1 {
+        margin-top: 0;
+        padding: 5vh 2vw;
+    }
+
+#Amenities button {
+    padding: 10px;
+    color: white;
+    background-color: rgba(47,79,79,0.7);
+    margin-top: 15vh;
+    margin-left: 7.5vw;
+}
+
+#box1-1 {
+    background-image: url('../images/11694039_10204563278305669_2220913325272185329_n.jpg');
+    background-size: cover;
+    background-position: left center;
+    width: 28.6vw;
+    height: 50vh;
+}
+
+   /* #box1-1 button {
+        margin-top: 5vh;
+        margin-left: 2.5vw;
+    }*/
+
+#box1-2 {
+    width: 28.6vw;
+    height: 50vh;
+}
+
+#box1-3 {
+    background-image: url('../images/12032052_10153660268617650_4945984882558392804_n.jpg');
+    background-size: cover;
+    width: 28.6vw;
+    height: 50vh;
+}
+
+#box2-1 {
+    width: 28.6vw;
+    height: 50vh;
+}
+
+#box2-2 {
+    background-image: url('../images/12032052_10153660268617650_4945984882558392804_n.jpg');
+    background-size: cover;
+    width: 28.6vw;
+    height: 50vh;
+}
+
+
+#box2-3 {
+    width: 28.6vw;
+    height: 50vh;
+}
+
+#box3-1 {
+    background-image: url('../images/12032052_10153660268617650_4945984882558392804_n.jpg');
+    background-size: cover;
+    width: 28.6vw;
+    height: 50vh;
+}
+
+
+#box3-2 {
+    width: 28.6vw;
+    height: 50vh;
+}
+
+#box3-3 {
+    background-image: url('../images/12032052_10153660268617650_4945984882558392804_n.jpg');
+    background-size: cover;
+    width: 28.6vw;
+    height: 50vh;
+}
+
+
+/*REVIEW SECTION*/
+#myCarousel {
+    margin: 10vh auto;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+/*CONTACT SECTION*/
+
+#Contact {
+    margin: 10vh auto;
 }

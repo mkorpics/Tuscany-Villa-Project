@@ -75,11 +75,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\site.css" />
+    <Content Include="images\11694039_10204563278305669_2220913325272185329_n.jpg" />
+    <Content Include="images\11694039_10204563280545725_9014831339318403438_n.jpg" />
+    <Content Include="images\12032052_10153660268617650_4945984882558392804_n.jpg" />
+    <Content Include="site.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
