@@ -76,9 +76,41 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="content\site.css" />
+    <Content Include="images\11351387_10153416703302650_4568700289597657454_n %281%29.jpg" />
     <Content Include="images\11694039_10204563278305669_2220913325272185329_n.jpg" />
     <Content Include="images\11694039_10204563280545725_9014831339318403438_n.jpg" />
+    <Content Include="images\11753705_10205805934962450_7720741967566378544_n %282%29.jpg" />
+    <Content Include="images\11924743_10100394102687297_2440219550839815431_n %281%29.jpg" />
     <Content Include="images\12032052_10153660268617650_4945984882558392804_n.jpg" />
+    <Content Include="images\13310543_10154233178687650_6449646765497122946_n.jpg" />
+    <Content Include="images\13350410_489170317945889_5941211877861552607_o.jpg" />
+    <Content Include="images\15129050_557475974448656_2693879939227460640_o.jpg" />
+    <Content Include="images\15138542_557616434434610_4579925431041229921_o.jpg" />
+    <Content Include="images\15390993_10211266286723191_2483252566335333178_n.jpg" />
+    <Content Include="images\15391536_10211298780935526_159012009544429383_o.jpg" />
+    <Content Include="images\15400414_10211266285283155_1168336007575011002_n.jpg" />
+    <Content Include="images\15419529_10211266292643339_2197658607895417352_o.jpg" />
+    <Content Include="images\15419646_10211266295003398_3913232965166081911_o.jpg" />
+    <Content Include="images\18197814_10208863268446764_1456880107_n.jpg" />
+    <Content Include="images\Cake Truck_160.jpg" />
+    <Content Include="images\Cake Truck_426.jpg" />
+    <Content Include="images\Cake Truck_62.jpg" />
+    <Content Include="images\Cake Truck_63.jpg" />
+    <Content Include="images\Cake Truck_70.jpg" />
+    <Content Include="images\DSCN1969.jpg" />
+    <Content Include="images\DSCN2850.jpg" />
+    <Content Include="images\friends_0380.JPG" />
+    <Content Include="images\friends_0387.JPG" />
+    <Content Include="images\IMGP2686.jpg" />
+    <Content Include="images\IMGP2713.jpg" />
+    <Content Include="images\IMG_1534.jpg" />
+    <Content Include="images\loping_0457.JPG" />
+    <Content Include="images\loping_0458.JPG" />
+    <Content Include="images\me and lady.JPG" />
+    <Content Include="images\Mexico.JPG" />
+    <Content Include="images\Silhouette.JPG" />
+    <Content Include="images\starfish friends.JPG" />
+    <Content Include="images\waving hi.JPG" />
     <Content Include="site.html" />
     <Content Include="Web.config" />
   </ItemGroup>

@@ -2,6 +2,10 @@
     background-color: lightgray;
 }
 
+#Locations, #Amenities, #Contact, #Reviews{
+    font-family: 'Hind', sans-serif;
+}
+
 nav {
     background-color: darkslategray;
     color: white;
@@ -14,6 +18,7 @@ nav {
 
 #navvy a {
     color: white;
+    font-family: 'Libre Baskerville', serif;
 }
 
     #navvy a:hover {
@@ -37,7 +42,17 @@ nav {
 .jumboText {
     padding-left: 2vw;
     color: darkslategray;
-    text-shadow: 3px 3px 2px white;
+}
+
+.jumboText h1{
+    font-family: 'Pacifico', cursive;
+        text-shadow: 3px 3px 2px white;
+}
+
+.jumboText h3{
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px white;
 }
 
 /*All the Section Headers*/
@@ -45,6 +60,7 @@ nav {
     background-color: darkslategray;
     margin: 0 auto;
     color: white;
+    font-family: 'Libre Baskerville', serif;
 }
 
 /*LOCATIONS SECTION*/
@@ -71,6 +87,7 @@ nav {
         background-color: white;
         color: darkslategray;
     }
+
 
 /*AMENITIES SECTION*/
 
@@ -117,7 +134,7 @@ nav {
     color: white;
     background-color: rgba(47,79,79,0.7);
     margin-top: 15vh;
-    margin-left: 7.5vw;
+    margin-left: 8vw;
 }
 
 
@@ -127,52 +144,41 @@ nav {
 }
 
 #box1-1 {
-    background-image: url('../images/11694039_10204563278305669_2220913325272185329_n.jpg');
+    background-image: url('../images/IMG_1534.jpg');
     background-size: cover;
-    background-position: left center;
 }
 
 #box1-3 {
-    background-image: url('../images/12032052_10153660268617650_4945984882558392804_n.jpg');
+    background-image: url('../images/15391536_10211298780935526_159012009544429383_o.jpg');
     background-size: cover;
 }
 
 
 #box2-2 {
-    background-image: url('../images/12032052_10153660268617650_4945984882558392804_n.jpg');
+    background-image: url('../images/Cake Truck_70.jpg');
     background-size: cover;
 }
 
 #box3-1 {
-    background-image: url('../images/12032052_10153660268617650_4945984882558392804_n.jpg');
+    background-image: url('../images/18197814_10208863268446764_1456880107_n.jpg');
     background-size: cover;
 }
 
 
 #box3-3 {
-    background-image: url('../images/12032052_10153660268617650_4945984882558392804_n.jpg');
+    background-image: url('../images/15138542_557616434434610_4579925431041229921_o.jpg');
     background-size: cover;
-}
-
-@media screen and (max-width: 1500) {
-
-    .amenBox {
-        width: 100vw;
-        height: 100vh;
-    }
-
 }
 
 
 /*REVIEW SECTION*/
 #myCarousel {
     margin: 5vh auto;
-    animation-delay: 10s;
 }
 
     #myCarousel p {
         font-style: italic;
-        padding: 5vh 15vw;
+        padding: 5vh 15vw 0vh 15vw;
     }
 
 .carousel-indicators {
@@ -196,6 +202,19 @@ nav {
 }
 
 
+/*FOOTER*/
+
 .footer {
     padding: 50px;
 }
+
+.glyphicon-chevron-up {
+    font-weight: 900;
+    font-size: 17px;
+}
+
+span.glyphicon-chevron-up {
+    color: white;
+}
+
+
