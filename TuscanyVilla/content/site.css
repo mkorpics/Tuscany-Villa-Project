@@ -1,4 +1,8 @@
-﻿nav {
+﻿body{
+    background-color: lightgray;
+}
+
+nav {
     background-color: darkslategray;
     color: white;
     margin-bottom: 0;
@@ -72,10 +76,9 @@
 
 #Amenities {
     margin: 10vh auto;
-    background-color: lightgray;
 }
 
-    #Amenities p, h1, h3 {
+    #Amenities h1, h3 {
         text-transform: uppercase;
     }
 
@@ -102,7 +105,11 @@
 
     .amenitiesAd h1 {
         margin-top: 0;
-        padding: 5vh 2vw;
+        padding: 5vh 2vw 1vh 2vw;
+    }
+
+    .amenitiesAd p {
+        padding: 0 2vw 1vh 2vw;
     }
 
 #Amenities button {
@@ -157,7 +164,18 @@
 
 /*REVIEW SECTION*/
 #myCarousel {
-    margin: 10vh auto;
+    margin: 5vh auto;
+    animation-delay: 10s;
+}
+
+    #myCarousel p {
+        font-style: italic;
+        padding: 5vh 15vw;
+    }
+
+.carousel-indicators {
+    position: relative;
+    padding-top: 4vh;
 }
 
 .carousel-control.left {
@@ -168,8 +186,14 @@
     background-image: none;
 }
 
+
 /*CONTACT SECTION*/
 
 #Contact {
     margin: 10vh auto;
+}
+
+
+.footer {
+    padding: 50px;
 }
